@@ -1,0 +1,54 @@
+
+.ancho{
+  width: 100%;
+}
+.boton{
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#899a45;
+}
+
+#ti{
+  margin-left: 45%;
+}
+
+.rosa{
+  background: #ff0a7e;
+}
+
+
+.container {
+  display: flex;
+}
+.pad{
+  padding: 10%;
+}
+ .padd{
+
+   padding-left: 9%;
+   padding-right: 9%;
+   padding-bottom: 9%;
+   padding-top: -5%;
+ }
+ .alincanj{
+   padding: 6%;
+ }
+
+ .fuente{
+   color: #ffffff;
+ }
+
+.ali{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.margenjunto{
+  margin-top: -1.59%;
+}
+  .footer{
+ background-color: #000000 ;
+}
+.redes img{
+ width:70%;
+} (edited
