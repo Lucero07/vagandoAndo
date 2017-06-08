@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/calendario.css">
+	  <link rel="stylesheet" href="css/efectosBarra.css">
+	  <link rel="stylesheet" href="css/main.css">
+	 <meta charset="utf-8">
+</head>
+<body>
+<div class="row">
+	<div class="col-md-2" id="contenedorsito">
+		<div class="item">
+        <p class="letrero" id="letrero1">Música
+        <img class="foto" id="foto1" src="img/images.jpg"></p>
+    </div>
+    <div class="item">
+        <p class="letrero" id="letrero2">Danza
+        <img class="foto" id="foto2" src="img/danza.jpg"></p>
+    </div>
+    <div class="item">
+        <p class="letrero" id="letrero3">Teatro
+        <img class="foto" id="foto3" src="img/teatro.jpg"></p>
+    </div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-2" id="contenedorsito">
+    <div class="item">
+        <p class="letrero" id="letrero4">Deporte
+        <img class="foto" id="foto4" src="img/deporte.jpg"></p>
+    </div>
+     <div class="item">
+        <p class="letrero" id="letrero5">Cine
+        <img class="foto" id="foto5" src="img/cine.jpg"></p>
+    </div>
+     <div class="item">
+        <p class="letrero" id="letrero6">Exposiciones
+        <img class="foto" id="foto6" src="img/exposiciones.jpg"></p>
+    </div>
+    </div>
+
+	
+	<div class="col-md-7">
+	<div id='wrap'>
+<div id='calendar'></div>
+<div style='clear:both'></div>
+</div>	
+	</div>
+</div>
+
+ <div class="row">
+    <div class="col-md-7">
+      <section class="lugares">
+        <div class="panel panel-default">
+          <nav class="navbar navbar-inverse">
+            <h1>Ahora cerca de tí...</h1>
+          </nav>
+          <div class="panel-heading ciudad" id="navLugares" data-latitud="19.4218677" data-longitud="-99.1658524">
+          </div>
+          <div class="panel-body">
+            <h4>Pulquería Los Insurgentes: Rockin&Pulques Vol.1</h4>
+            <p><img src="img/ubicacion.jpg" alt="">Av. Insurgentes Sur 179, Cuauhtémoc, Hipódromo, 06100 Ciudad de México, CDMX<br>
+              <img src="img/tel.png" alt=""> Tel: 01 55 4633 3246<br>
+              <i>#RebelDaysMX</i> se complace en presentar "Rockin&Pulque" música en Vinilos sus puertas 13:00hrs arrancando el evento de 16:00 a 21:00hrs<br>
+              <img src="img/musica.jpg" alt=""> Música: Rock&Roll y Rockabilly<br> Precio: No Cover  <i>Pulque: $50 Chela: $45</i><br> +18 INE
+            </p>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading ciudad" id="navLugares" data-latitud="19.4166087" data-longitud="-99.1718775">
+          </div>
+          <div class="panel-body">
+            <h4>Foro Cultural Luis Vázquez: Japanese Movies</h4>
+            <p><img src="img/ubicacion.jpg" alt="">Av. Insurgentes Sur 179, Cuauhtémoc, Hipódromo, 06100 Ciudad de México, CDMX<br>
+              <img src="img/tel.png" alt=""> Tel: 01 55 4633 3246<br>
+              >Después de 4 años seguimos trayendo una gran variedad de películas desde Japón ya sea para ser distribuidas
+              dentro del Festival o para su distribución en México y latinoamérica.<br>
+              <img src="img/ciney.jpg" alt=""> Cine: Japonés<br> Precio: No Cover <i>Venta de comida, gasto mínimo: $60</i><br> +18 INE
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="panel panel-default">
+        <div class="panel-heading ciudad" id="navLugares" data-latitud="19.4166087" data-longitud="-99.1718775">
+        </div>
+        <div class="panel-body">
+          <h4>Gato Calavera: Move On Up!</h4>
+          <p><img src="img/ubicacion.jpg" alt="">Av. Insurgentes Sur 179, Cuauhtémoc, Hipódromo, 06100 Ciudad de México, CDMX<br>
+            <img src="img/tel.png" alt=""> Tel: 01 55 4633 3246<br>
+            Después de 4 años seguimos trayendo una gran variedad de películas desde Japón ya sea para ser distribuidas
+            dentro del Festival o para su distribución en México y latinoamérica.<br>
+            <img src="img/musica.jpg" alt=""> Música: Punk Rock<br> Precio: No Cover <i>Pulque: $50 Chela: $45</i><br> +18 INE
+          </p>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
+    <div class="col-md-5">
+      <div id="map" class="map"></div>
+    </div>
+  </div>
+
+
+
+<!-- aqui termina yurian -->
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/calendario.js"></script>
+     <script src="js/efectos.js"></script>
+      <script src="js/app.js"></script>
+       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApgzfJ_D4iFz_Sk-BvIaqvM1FFrxJLipM"></script>
+  
+</body>
+</html>

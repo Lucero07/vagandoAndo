@@ -1,0 +1,39 @@
+#contenedorsito{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.item {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    margin: 0 0 30px 0;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+}
+.letrero{
+    font-size: 30px;
+   
+}
+#letrero1{
+    color: #ff112c;  
+}
+#letrero2{
+    color: #ff7116;  
+}
+#letrero3{
+    color: #fdff00;  
+}
+#letrero4{
+    color: #00ff11;  
+}
+#letrero5{
+    color: #001eef;  
+}
+#letrero6{
+    color: #c200f2;  
+}

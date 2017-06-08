@@ -1,0 +1,24 @@
+.map {
+  margin-top: 100px;
+	height: 400px;
+}
+
+.ciudad {
+	cursor: pointer;
+}
+
+h1{
+  margin-left: 8px;
+  background-color: #252226;
+  color: #FFF;
+}
+
+#navLugares{
+  background-color: #FFF;
+}
+
+img{
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+}
