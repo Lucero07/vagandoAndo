@@ -1,0 +1,10 @@
+body {
+    background-color: rebeccapurple;
+}
+
+div.splash {
+    height: 100vh;
+    background-image: url(../assets/vagando.ando.gif);
+    background-size: cover;
+    background-position: center;
+}

@@ -22,3 +22,17 @@ img{
   width: 20px;
   padding: 2px;
 }
+.footer{
+  background-color: #000000;
+}
+.redes img{
+  width:50%;
+  height: 10vh;
+}
+nav{
+  margin: 0;
+  width: 100%;
+}
+.solucion img{
+  width: 100%
+}

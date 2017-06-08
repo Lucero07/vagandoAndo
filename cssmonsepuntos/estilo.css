@@ -46,9 +46,15 @@
 .margenjunto{
   margin-top: -1.59%;
 }
-  .footer{
- background-color: #000000 ;
+.footer{
+  background-color: #000000;
 }
 .redes img{
- width:70%;
-} (edited
+  width:70%;
+}
+nav{
+  margin: 0;
+}
+.solucion img{
+  width: 45%
+}
