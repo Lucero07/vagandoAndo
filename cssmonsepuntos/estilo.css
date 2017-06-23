@@ -17,6 +17,9 @@
   background: #ff0a7e;
 }
 
+img:hover {
+ transform: scale(1.4) translate(0px);
+}
 
 .container {
   display: flex;
